@@ -7,6 +7,8 @@ use App\Http\Controllers\dummyAPI;
 use App\Http\Controllers\ABController;
 
 use App\Http\Controllers\DController;
+use App\Http\Controllers\PicController;
+
 
 
 /*
@@ -32,3 +34,4 @@ Route::put("update",[DController::class,'update']);
 Route::get("search/{name}",[DController::class,'search']);
 Route::delete("delete/{id}",[DController::class,'delete']);
 Route::post("save",[DController::class,'save']);
+Route::post("pic",[PicController::class,'pic']);
