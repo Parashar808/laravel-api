@@ -31,3 +31,4 @@ Route::post("add",[DController::class,'add']);
 Route::put("update",[DController::class,'update']);
 Route::get("search/{name}",[DController::class,'search']);
 Route::delete("delete/{id}",[DController::class,'delete']);
+Route::post("save",[DController::class,'save']);
